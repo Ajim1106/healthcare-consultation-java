@@ -1,0 +1,58 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Java / Maven build files
+**/target/
+**/build/
+*.class
+
+# Eclipse workspace files
+.metadata/
+**/.metadata/
+.settings/
+**/.settings/
+*.launch
+
+# Frontend dependencies and generated files
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.next/
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# Local application configuration
+**/application-local.properties
+**/application-local.yml
+# Eclipse IDE files
+**/.classpath
+**/.factorypath
+**/.project
